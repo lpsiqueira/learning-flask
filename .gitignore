@@ -1,0 +1,48 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+
+# Log files
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Configuration files
+instance/
+*.cfg
+*.ini
+
+# Pytest
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm settings
+.idea/
+*.iml
+
+# VS Code settings
+.vscode/
+.settings/
+
+# MacOS files
+.DS_Store
+
+# Python virtual environment folders
+.venv/
+venv.bak/
+env.bak/
