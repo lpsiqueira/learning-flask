@@ -3,8 +3,7 @@ function activateVenv {
     .\venv\Scripts\Activate.ps1
 }
 function runApp {
-	$env:FLASK_DEBUG=1
-	flask run
+	python .\src\run.py
 }
 
 function flaskShell {
@@ -22,7 +21,7 @@ switch ($arg.ToLower()) {
     'venv' {
         activateVenv
     }
-    
+
 	'run' {
         runApp
     }
