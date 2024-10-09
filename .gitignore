@@ -46,3 +46,5 @@ coverage.xml
 .venv/
 venv.bak/
 env.bak/
+
+other/
