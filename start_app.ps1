@@ -1,4 +1,4 @@
-$env:FLASK_APP=".\src\market.py"
+$env:FLASK_APP=".\src\run.py"
 function activateVenv {
     .\venv\Scripts\Activate.ps1
 }
